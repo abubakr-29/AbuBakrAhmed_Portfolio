@@ -10,7 +10,7 @@ import {
 import { Link as ScrollLink } from "react-scroll";
 
 import React, { useRef, useState } from "react";
-import Profile from "../../assets/Logo.png";
+import Logo from "../../assets/Logo.png";
 
 export const Navbar = ({ children, className }) => {
   const ref = useRef(null);
@@ -180,13 +180,15 @@ export const MobileNavToggle = ({ isOpen, onClick }) => {
 
 export const NavbarLogo = () => {
   return (
-    <a
-      href="#"
-      className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
+    <ScrollLink
+      to="hero"
+      smooth={false}
+      offset={-70}
+      className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black cursor-pointer"
     >
-      <img src={Profile} alt="logo" width={30} height={30} />
+      <img src={Logo} alt="logo" width={30} height={30} />
       <span className="font-medium text-white">Abu Bakr Ahmed</span>
-    </a>
+    </ScrollLink>
   );
 };
 

@@ -64,7 +64,7 @@ export default function NavbarDemo() {
                 duration={500}
                 offset={-70}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="relative text-neutral-600 dark:text-neutral-300 cursor-pointer"
+                className="relative text-neutral-300 cursor-pointer"
               >
                 <span className="block">{item.name}</span>
               </ScrollLink>
@@ -76,7 +76,7 @@ export default function NavbarDemo() {
                 duration={500}
                 offset={-70}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="px-4 py-2 rounded-md bg-white button bg-white text-black text-sm font-bold relative cursor-pointer hover:-translate-y-0.5 transition duration-200 inline-block text-center w-full"
+                className="px-4 py-2 rounded-md bg-white button text-black text-sm font-bold relative cursor-pointer hover:-translate-y-0.5 transition duration-200 inline-block text-center w-full"
               >
                 Let's Talk
               </ScrollLink>

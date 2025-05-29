@@ -39,7 +39,7 @@ const AboutMeText = () => {
           smooth={true}
           spy={true}
           duration={500}
-          offset={-120}
+          offset={-70}
           className="px-4 py-2 rounded-md button bg-white text-black text-sm font-bold relative cursor-pointer hover:-translate-y-0.5 transition duration-200 inline-block text-center"
         >
           Get in Touch
