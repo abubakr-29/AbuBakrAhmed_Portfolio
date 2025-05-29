@@ -4,7 +4,7 @@ import AboutMeImage from "./AboutMeImage";
 
 const AboutUsMain = () => {
   return (
-    <section className="py-20" id="about">
+    <section className="pt-24 pb-6" id="about">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}

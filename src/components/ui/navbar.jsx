@@ -24,7 +24,7 @@ export default function NavbarDemo() {
     },
     {
       name: "Skills",
-      link: "#Skills",
+      link: "#skills",
     },
     {
       name: "Projects",

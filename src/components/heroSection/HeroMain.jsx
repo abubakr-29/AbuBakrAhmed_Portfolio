@@ -7,7 +7,7 @@ const HeroMain = () => {
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
       id="hero"
     >
-      <div className="absolute inset-0 -z-10">
+      <div className="absolute inset-0 -z-10 bg-[#040303]">
         <Noise
           patternSize={250}
           patternScaleX={1}
