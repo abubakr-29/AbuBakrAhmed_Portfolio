@@ -20,6 +20,16 @@ const App = () => {
         <BackToTop />
         <SpeedInsights />
       </div>
+      <section
+        id="contact"
+        className="min-h-[400px] flex flex-col items-center justify-center py-20 border-t border-zinc-800 mt-12"
+      >
+        <h2 className="text-3xl font-bold mb-4">Contact</h2>
+        <p className="text-zinc-400 mb-2">
+          This is a placeholder for the Contact section. You can add your
+          contact form or details here.
+        </p>
+      </section>
     </main>
   );
 };
