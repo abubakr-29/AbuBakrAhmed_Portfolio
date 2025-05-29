@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import profilePic from "../../assets/AbuBakrAhmed.jpeg";
 
-const AboutUsImage = () => {
+const AboutMeImage = () => {
   return (
     <div className="w-full lg:w-1/2">
       <div class="flex justify-center lg:p-8">
@@ -9,7 +9,7 @@ const AboutUsImage = () => {
           src={profilePic}
           alt="Abu Bakr Ahmed"
           className="rounded-3xl shadow-2xl shadow-white/30"
-          width={500}
+          width={540}
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 1 }}
@@ -19,4 +19,4 @@ const AboutUsImage = () => {
   );
 };
 
-export default AboutUsImage;
+export default AboutMeImage;

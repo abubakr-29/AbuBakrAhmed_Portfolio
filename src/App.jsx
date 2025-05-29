@@ -1,7 +1,8 @@
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import NavbarMain from "./components/navbar/NavbarMain";
 import HeroMain from "./components/heroSection/HeroMain";
-import AboutUsMain from "./components/aboutUsSection/AboutUsMain";
+import AboutMeMain from "./components/aboutUsSection/AboutMeMain";
+import ProjectMain from "./components/projectSection/ProjectMain";
 
 const App = () => {
   return (
@@ -9,7 +10,8 @@ const App = () => {
       <NavbarMain />
       <HeroMain />
       <div className="container mx-auto px-8">
-        <AboutUsMain />
+        <AboutMeMain />
+        <ProjectMain />
         <SpeedInsights />
       </div>
     </main>

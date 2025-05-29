@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import React, { useEffect, useState } from "react";
+import { Link } from "react-scroll";
 import DecryptedText from "./DecryptedText";
 
 const childVariants = {
@@ -50,15 +51,18 @@ const HeroText = () => {
         >
           Download Resume
         </motion.a>
-        <motion.a
-          href="#work"
-          className="px-4 py-2 rounded-md button border border-white text-white text-sm font-bold relative cursor-pointer hover:-translate-y-0.5 transition duration-200 inline-block text-center"
-          variants={childVariants}
-          initial="hidden"
-          animate={animate ? "visible" : "hidden"}
-        >
-          View My Work
-        </motion.a>
+        <motion.div>
+          <Link
+            to="projects"
+            smooth={true}
+            spy={true}
+            duration={500}
+            offset={-100}
+            className="px-4 py-2 rounded-md button border border-white text-white text-sm font-bold relative cursor-pointer hover:-translate-y-0.5 transition duration-200 inline-block text-center"
+          >
+            View My Work
+          </Link>
+        </motion.div>
       </div>
     </div>
   );

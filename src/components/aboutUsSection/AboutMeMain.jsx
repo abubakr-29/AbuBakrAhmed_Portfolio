@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
-import AboutUsText from "./AboutUsText";
-import AboutUsImage from "./AboutUsImage";
+import AboutMeText from "./AboutMeText";
+import AboutMeImage from "./AboutMeImage";
 
 const AboutUsMain = () => {
   return (
@@ -14,8 +14,8 @@ const AboutUsMain = () => {
         About Me
       </motion.h2>
       <div className="flex flex-wrap lg:flex-row-reverse max-w-7xl mx-auto px-4">
-        <AboutUsImage />
-        <AboutUsText />
+        <AboutMeImage />
+        <AboutMeText />
       </div>
     </section>
   );

@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { Link } from "react-scroll";
 
-const AboutUsText = () => {
+const AboutMeText = () => {
   return (
     <div className="w-full lg:w-1/2 flex flex-col items-center justify-center">
       <motion.h2
@@ -49,4 +49,4 @@ const AboutUsText = () => {
   );
 };
 
-export default AboutUsText;
+export default AboutMeText;
