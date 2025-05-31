@@ -5,9 +5,10 @@ const SkillsText = () => {
         My Skills
       </h2>
       <p className="max-w-3xl mx-auto text-lg">
-        I work confidently with these technologies, applying best practices to
-        build scalable, high-quality solutions. These skills have been my
-        toolkit for bringing real projects to life — from idea to deployment.
+        From algorithms to applications, I blend theory with practice to craft
+        solutions that are as solid under the hood as they are smooth on the
+        surface. Every line of code reflects a journey — from concept to
+        creation.
       </p>
     </div>
   );

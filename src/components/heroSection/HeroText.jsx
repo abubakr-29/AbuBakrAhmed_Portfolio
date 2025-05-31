@@ -41,17 +41,24 @@ const HeroText = () => {
         applications.
       </motion.p>
       <div className="flex flex-col sm:flex-row gap-4 mt-2">
-        <motion.a
-          href="/resume.pdf"
-          download
-          className="px-4 py-2 rounded-md button bg-white text-black text-sm font-bold relative cursor-pointer hover:-translate-y-0.5 transition duration-200 inline-block text-center"
+        <motion.div
           variants={childVariants}
           initial="hidden"
           animate={animate ? "visible" : "hidden"}
         >
-          Download Resume
-        </motion.a>
-        <motion.div>
+          <a
+            href="/AbuBakr_Ahmed_Resume.pdf"
+            download
+            className="px-4 py-2 rounded-md button bg-white text-black text-sm font-bold relative cursor-pointer hover:-translate-y-0.5 transition duration-200 inline-block text-center"
+          >
+            Download Resume
+          </a>
+        </motion.div>
+        <motion.div
+          variants={childVariants}
+          initial="hidden"
+          animate={animate ? "visible" : "hidden"}
+        >
           <Link
             to="projects"
             smooth={true}

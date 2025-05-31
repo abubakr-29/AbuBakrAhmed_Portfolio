@@ -19,20 +19,21 @@ const AboutMeText = () => {
         className="text-base sm:text-lg text-zinc-400 sm:leading-relaxed tracking-tight sm:tracking-tighter space-y-6 mx-auto text-center lg:text-left"
       >
         <p className="leading-relaxed">
-          I'm someone who genuinely enjoys building things that work and make
-          sense. My journey into web development began during college out of
-          pure curiosity, and over time, it turned into something much deeper—a
-          drive to create, solve problems, and bring ideas to life through code.
+          I'm a developer driven by curiosity, creativity, and the desire to
+          solve meaningful problems through technology. What began as casual
+          experimentation during college quickly evolved into a deeper passion
+          for building digital solutions that are both functional and impactful.
         </p>
         <p className="leading-relaxed">
-          What started as personal experiments evolved into real-world projects,
-          and with each one, I've learned not just about development, but about
-          people, communication, and how technology fits into everyday life.
+          Over time, I've transitioned from coding personal projects to
+          developing real-world applications, gaining valuable insight into not
+          just the technical side of development, but also the importance of
+          user experience, clear communication, and collaboration.
         </p>
         <p className="leading-relaxed mb-8">
-          Outside of work, I like to train hard, learn continuously, and reflect
-          on how I can grow—not just as a developer, but as a person who wants
-          to make a meaningful impact.
+          Outside of coding, I dedicate myself to physical training, continuous
+          learning, and self-reflection — all part of my broader goal to grow as
+          both a developer and a person who contributes value wherever possible.
         </p>
         <Link
           to="contact"
