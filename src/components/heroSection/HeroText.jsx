@@ -5,7 +5,7 @@ import DecryptedText from "./DecryptedText";
 
 const childVariants = {
   hidden: { opacity: 0, x: -100 },
-  visible: { opacity: 1, x: 0, transition: { duration: 0.7 } },
+  visible: { opacity: 1, x: 0, transition: { duration: 1.2 } },
 };
 
 const HeroText = () => {
