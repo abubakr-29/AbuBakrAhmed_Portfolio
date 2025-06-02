@@ -10,6 +10,7 @@ import BackToTop from "./components/BackToTop";
 import ContactMeMain from "./components/contactMeSection/ContactMeMain";
 import ThankYouPage from "./components/contactMeSection/ThankYouPage";
 import FooterMain from "./components/footer/FooterMain";
+import FoundationSkills from "./components/skillsSection/FoundationSkills";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
                   <AboutMeMain />
                   <SkillsMain />
                   <SubSkills />
+                  <FoundationSkills />
                   <ProjectMain />
                   <ContactMeMain />
                   <FooterMain />
