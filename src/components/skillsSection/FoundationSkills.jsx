@@ -1,5 +1,7 @@
 import { motion } from "motion/react";
 import { fadeIn } from "../../framerMotion/variants";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
 import { FaJava, FaCubes } from "react-icons/fa6";
 import { SiPython } from "react-icons/si";
 import { SiC } from "react-icons/si";
@@ -10,6 +12,16 @@ import { FaMicrochip } from "react-icons/fa6";
 import { MdStorage } from "react-icons/md";
 
 const foundationSkills = [
+  {
+    skill: "HTML",
+    icon: FaHtml5,
+    color: "#E34F26",
+  },
+  {
+    skill: "CSS",
+    icon: FaCss3Alt,
+    color: "#1572B6",
+  },
   {
     skill: "C",
     icon: SiC,

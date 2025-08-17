@@ -1,7 +1,8 @@
 import { motion } from "motion/react";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
-import DecryptedText from "./DecryptedText";
+// import DecryptedText from "./DecryptedText";
+import TextType from "./TextType";
 
 const childVariants = {
   hidden: { opacity: 0, x: -100 },
@@ -16,11 +17,22 @@ const HeroText = () => {
 
   return (
     <div className="w-full flex flex-col items-center justify-center text-center px-8">
-      <DecryptedText
+      {/* <DecryptedText
         text="Hi, I'm Abu Bakr Ahmed"
         animateOn="view"
         revealDirection="center"
         speed={120}
+      /> */}
+      <TextType
+        text={[
+          "Hi, I'm Abu Bakr Ahmed",
+          "I craft fast & responsive websites",
+          "Turning ideas into reality",
+        ]}
+        typingSpeed={75}
+        pauseDuration={1500}
+        showCursor={true}
+        cursorCharacter="_"
       />
       <motion.h2
         className="uppercase text-xl md:text-2xl text-zinc-400 font-medium mt-2 mb-4"
@@ -48,10 +60,11 @@ const HeroText = () => {
         >
           <a
             href="/AbuBakr_Ahmed_Resume.pdf"
-            download
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-4 py-2 rounded-md button bg-white text-black text-sm font-bold relative cursor-pointer hover:-translate-y-0.5 transition duration-200 inline-block text-center"
           >
-            Download Resume
+            View Resume
           </a>
         </motion.div>
         <motion.div

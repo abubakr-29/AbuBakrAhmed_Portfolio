@@ -6,6 +6,7 @@ import MHInteriors from "../../assets/project/mh-interiors.png";
 import FAMedia from "../../assets/project/famedia.png";
 import Roofing from "../../assets/project/roofing.png";
 import FarazKhan from "../../assets/project/farazkhan.png";
+import Ecommerce from "../../assets/project/ecommerce.png";
 
 const ProjectMain = () => {
   const items = [
@@ -23,6 +24,16 @@ const ProjectMain = () => {
       description:
         "FA Media is a Kolkata-based digital media agency specializing in branding, web development, and digital marketing solutions.",
     },
+    {
+      image: Ecommerce,
+      link: "https://e-commerce-ns8f.vercel.app/",
+      title: "E-Commerce Store",
+      // description:
+      //   "A modern e-commerce platform built with React and Vite, featuring product listings, cart and checkout flows, responsive design—and a secure admin panel for managing products and orders.",
+      description:
+        "A modern e-commerce store with products, cart, checkout, and an admin panel for managing inventory and orders.",
+    },
+
     {
       image: TheCombatGym,
       link: "https://the-combat-gym.onrender.com/",

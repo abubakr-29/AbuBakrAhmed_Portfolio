@@ -1,6 +1,4 @@
 import SingleSkill from "./SingleSkill";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { FaReact } from "react-icons/fa";
@@ -9,20 +7,12 @@ import { FaNodeJs } from "react-icons/fa6";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiMysql } from "react-icons/si";
 import { FaPhp } from "react-icons/fa6";
+import { RiNextjsFill } from "react-icons/ri";
+import { BiLogoTypescript } from "react-icons/bi";
 import { motion } from "motion/react";
 import { fadeIn } from "../../framerMotion/variants";
 
 const skills = [
-  {
-    skill: "HTML",
-    icon: FaHtml5,
-    color: "#E34F26",
-  },
-  {
-    skill: "CSS",
-    icon: FaCss3Alt,
-    color: "#1572B6",
-  },
   {
     skill: "JavaScript",
     icon: IoLogoJavascript,
@@ -62,6 +52,16 @@ const skills = [
     skill: "PHP",
     icon: FaPhp,
     color: "#474A8A",
+  },
+  {
+    skill: "Next.js",
+    icon: RiNextjsFill,
+    color: "#171717",
+  },
+  {
+    skill: "TypeScript",
+    icon: BiLogoTypescript,
+    color: "#3178C6",
   },
 ];
 
