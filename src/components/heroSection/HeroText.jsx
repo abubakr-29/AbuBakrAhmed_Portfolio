@@ -64,7 +64,7 @@ const HeroText = () => {
             rel="noopener noreferrer"
             className="px-4 py-2 rounded-md button bg-white text-black text-sm font-bold relative cursor-pointer hover:-translate-y-0.5 transition duration-200 inline-block text-center"
           >
-            View Resume
+            View Résumé
           </a>
         </motion.div>
         <motion.div
